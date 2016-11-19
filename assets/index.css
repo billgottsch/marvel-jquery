@@ -1,0 +1,142 @@
+
+@font-face {
+    font-family: 'A.C.M.E. Secret Agent';
+    src: url(acmesai.TTF);
+    font-style:italic;
+}
+
+@font-face {
+    font-family: 'Comic Book Bold Italic';
+    src: url(Comic_Book_Bold_Italic.otf);
+    font-style:italic;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Comic Book Bold';
+    src: url(Comic_Book_Bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Comic Book';
+    src: url(Comic_Book.otf);
+}
+
+@font-face {
+    font-family: 'Comic Book Italic';
+    src: url(Comic_Book_Italic.otf);
+    font-style:italic;
+}
+
+
+html, body {
+  font-family: 'Comic Book', comic;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+.background {
+  opacity: .5;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  z-index: -100;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  z-index: 10;
+  justify-content: center;
+  margin: 0;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.marvelpic {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  width: 450px;
+}
+.marvel {
+  display: flex;
+  justify-content: center;
+}
+
+.marvelheader1 {
+  font-size: 90px;
+  padding: 0;
+  z-index: 5;
+  text-align: center;
+  margin-top: 10rem;
+  margin-bottom: 0;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+
+}
+
+h1 {
+  font-size: 50px;
+  padding: 0;
+  margin:0;
+  z-index: 5;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+
+}
+
+.container label {
+  font-size: 18px;
+}
+
+input {
+  line-height: 20px;
+  width: 20%;
+  background-color: #eee;
+  margin-top: 3rem;
+  border: 2px solid #868786;
+  border-radius: 2px;
+}
+
+button {
+  font-size: 14px;
+  background-color: #eee;
+  font-family:'A.C.M.E. Secret Agent';
+}
+
+.groups {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: auto;
+  justify-content: space-around;
+  align-content: center;
+  flex-direction: column;
+  width: 40%;
+  font-size: 14px;
+
+
+}
+
+.subgroup {
+  border: 2px groove #F3F5F4;
+  border-radius: 4px;
+  text-align: center;
+  background-color: transparent;
+  background-color: #AAC3E1;
+  margin-top: 4rem;
+  max-height: auto;
+  padding: 5px;
+
+}
+
+.thumbs {
+  width: 250px;
+}
+
+.urlLink {
+  font-size: 14px;
+}
