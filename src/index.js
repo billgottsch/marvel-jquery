@@ -24,7 +24,7 @@ if (heroReq == '' || heroReq == null || heroReq == undefined) {
         subgroup.append('<br>' + '<a class="urlLink"></a>' + res.resourceURI).attr('href', res.resourceURI);
         group.append(subgroup)
     })
-    $('.marvel').empty().append(group);
+    $('.marvel').empty().append(subgroup);
    });
 
 };
