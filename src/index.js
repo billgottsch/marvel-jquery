@@ -22,8 +22,8 @@ if (heroReq == '' || heroReq == null || heroReq == undefined) {
         // subgroup.append('<br>' + '# of Events: ' + res.events.available);
         subgroup.append('<br>' + '# of Series: ' + res.series.available);
         // var link = $('<a class="urlLink"></a>').attr('href', res.resourceURI).text(res.resourceURI)
-        subgroup.append('<br>')
-        subgroup.append(link);
+        // subgroup.append('<br>')
+        // subgroup.append(link);
         group.append(subgroup)
     })
     $('.marvel').empty().append(group);
