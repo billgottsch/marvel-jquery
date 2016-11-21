@@ -28,7 +28,9 @@
     src: url(Comic_Book_Italic.otf);
     font-style:italic;
 }
-
+* {
+  box-sizing: border-box;
+}
 
 html, body {
   font-family: 'Comic Book', comic;

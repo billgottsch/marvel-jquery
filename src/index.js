@@ -5,10 +5,10 @@ if (heroReq == '' || heroReq == null || heroReq == undefined) {
   alert('Your search terms were not valid')
 } else {
   $.ajax({
-   url:"https://gateway.marvel.com:443/v1/public/characters?nameStartsWith=" + heroReq + "&limit=20&apikey=a799d9e6415c9aaf43e9154921a45d92"
+   url:"https://gateway.marvel.com:443/v1/public/characters?nameStartsWith=" + encodeURIComponent(heroReq) + "&apikey=a799d9e6415c9aaf43e9154921a45d92"
   }).then(function(char){
      var group = $('<div class="groups"></div>');
-     $.each(char.data.results, function(req, res){
+     $.each(char.data.results, function(i, res){
         var subgroup = $('<div class="subgroup"></div>')
         subgroup.append('<br>' + 'Name: ' + res.name + '<br>');
         if (res.thumbnail.path === 'self' || res.thumbnail.path === null) {
