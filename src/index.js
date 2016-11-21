@@ -10,7 +10,7 @@ if (heroReq == '' || heroReq == null || heroReq == undefined) {
      var group = $('<div class="groups"></div>');
      $.each(char.data.results, function(req, res){
         var subgroup = $('<div class="subgroup"></div>')
-        subgroup.append('<br>' + 'Name: ' + res.name);
+        subgroup.append('<br>' + 'Name: ' + res.name + '<br>');
         if (res.thumbnail.path === 'self' || res.thumbnail.path === null) {
           subgroup.append($('<br>' + '<img class="thumbplace">').attr('src', 'assets/reinhardt.jpg'));
         } else {
