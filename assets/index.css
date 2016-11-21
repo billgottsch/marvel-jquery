@@ -64,6 +64,7 @@ html, body {
   border-radius: 3px;
   width: 450px;
 }
+
 .marvel {
   display: flex;
   justify-content: center;
@@ -112,12 +113,9 @@ button {
   flex-wrap: wrap;
   max-height: auto;
   justify-content: space-around;
-  align-content: center;
-  flex-direction: column;
+  align-content:center;
   width: 40%;
   font-size: 16px;
-
-
 }
 
 .subgroup {
@@ -127,10 +125,9 @@ button {
   background-color: #AAC3E1;
   margin-top: 4rem;
   max-height: auto;
-  padding: 5px;
+  padding-right: 3rem;
+  padding-left: 3rem;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
-
-
 }
 
 .thumbs {
